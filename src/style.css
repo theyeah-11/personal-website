@@ -1,0 +1,43 @@
+:root{
+     --bs-primary:#2067F5;
+    --bs-secondary:#393E46;
+    --bs-font-sans-serif:'Roboto',sans-serif;
+
+}
+
+body{
+    font-family: var(--bs-font-sans-serif);
+
+}
+.navbar-brand{
+    color:#DFD0B8 !important;
+}
+
+.navbar.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.navbar-nav .nav-link{
+    color:#DFD0B8 ;
+}
+.navbar-nav .nav-link:hover {
+    color: white;
+    font-size:large !important;
+}
+
+
+.row{
+    background-color: white !important;
+}
+
+.navbar-toggler {
+  border: 2px solid white; 
+}
+
+.bi-menu-button {
+  fill: white; 
+}
+
+.d-flex{
+    background-color: #f0a730;
+}
